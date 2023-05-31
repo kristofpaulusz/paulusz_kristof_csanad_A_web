@@ -13,7 +13,10 @@
 </head>
 
 <body>
-    <header class="navbar">Tesztkérdések</header>
+    <header class="navbar">
+        <h1>Tesztkérdések</h1>
+    </header>
+    <hr>
     <main>
         <select name="kategoria" id="katSelect"></select>
         <div class="kerdesSor"></div>

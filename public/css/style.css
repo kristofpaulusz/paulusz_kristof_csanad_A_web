@@ -18,6 +18,7 @@
 .kerdes,
 .valasz {
     margin: auto;
+    margin-top: 2vh;
     padding: 1vh;
     padding-left: 2vh;
     border-radius: 10px;
@@ -37,6 +38,16 @@
 }
 .helytelen {
     background-color: red;
+}
+#katSelect {
+    margin-left: 4vh;
+}
+header {
+    background-color: aliceblue;
+    margin-left: 2vh;
+}
+main {
+    background-color: beige;
 }
 @media screen and (max-width: 620px) {
     .vGridContainer {
