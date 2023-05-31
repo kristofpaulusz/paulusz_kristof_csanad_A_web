@@ -3,9 +3,9 @@ export default class TesztKerdes {
     constructor(parent, {id, kerdes, v1, v2, v3, v4, helyes}) {
         this.#helyes = helyes;
         parent.append(`
-        <div class="kerdesDiv" id=${id+"k"}>
+        <div class="kerdesDiv" >
             <div class="kerdes">${kerdes}</div>
-            <div class=vGridContainer>
+            <div class="vGridContainer" id=${id+"k"}>
             <div class="v1 valasz" id=${id+"v1"}>${v1}</div>
             <div class="v2 valasz" id=${id+"v2"}>${v2}</div>
             <div class="v3 valasz" id=${id+"v3"}>${v3}</div>
@@ -30,6 +30,7 @@ export default class TesztKerdes {
       $(`#${id+helyes}`).on("click", function(){
         $(this).addClass("helyes")
       });
+
     }
     
 }
