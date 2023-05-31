@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\KategoriaController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TesztekController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +20,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::apiResource('/tesztek', TesztekController::class)->only('index');
+Route::get('/tesztek/kategoria/{id}', [TesztekController::class, 'tesztekByKategoria']);
+Route::apiResource('/kategoria', KategoriaController::class)->only('index');
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

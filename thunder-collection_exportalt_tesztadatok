@@ -1,0 +1,51 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "exportalt tesztadatok",
+    "dateExported": "2023-05-31T08:49:25.948Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a501451c-0847-4c39-83cf-7f221d4ea38f",
+            "colId": "5091616a-3fb4-4920-8c06-25ec8eb14366",
+            "containerId": "",
+            "name": "kategoria index()",
+            "url": "localhost:8000/kategoria",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-31T08:49:04.282Z",
+            "modified": "2023-05-31T08:49:04.282Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "595ce563-80eb-455c-9e46-122be992b4f7",
+            "colId": "5091616a-3fb4-4920-8c06-25ec8eb14366",
+            "containerId": "",
+            "name": "localhost:8000/tesztek/1",
+            "url": "localhost:8000/tesztek/kategoria/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-05-31T08:49:14.020Z",
+            "modified": "2023-05-31T08:49:14.020Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d0618e46-0d12-45cf-8cac-5ecd7f9db196",
+            "colId": "5091616a-3fb4-4920-8c06-25ec8eb14366",
+            "containerId": "",
+            "name": "localhost:8000/tesztek",
+            "url": "localhost:8000/tesztek",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-05-31T08:49:20.524Z",
+            "modified": "2023-05-31T08:49:20.524Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

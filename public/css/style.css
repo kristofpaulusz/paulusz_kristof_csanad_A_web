@@ -1,0 +1,44 @@
+.kerdesSor {
+    width: 90%;
+    margin: auto;
+    background-color: beige;
+}
+.valasz {
+    text-align: center;
+}
+.kerdes {
+    width: 98%;
+    background-color: darkslategrey;
+    color: whitesmoke;
+    text-align: left;
+}
+.kerdes,
+.valasz {
+    margin: auto;
+    padding: 1vh;
+    padding-left: 2vh;
+    border-radius: 10px;
+    border: solid grey 2px;
+    width: 100%;
+}
+.valasz {
+    text-align: center;
+}
+.vGridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2vh;
+}
+.helyes {
+    background-color: green;
+}
+.helytelen {
+    background-color: red;
+}
+@media screen and (max-width: 620px) {
+    .vGridContainer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 2vh;
+    }
+}
